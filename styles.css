@@ -1,0 +1,27 @@
+/* Red: #DD4055 (primary)
+Green: #1FAD9D (secondary)
+Purple: #8783D1 (tertiary)
+White: #ECEBF3
+Black: #101119 */
+
+
+header {
+    background-color: #DD4055;
+    color: #101119;
+}
+
+body {
+    background-color: #ECEBF3;
+    color: #101119;
+    text-align: center;
+}
+
+button {
+    background-color: #1FAD9D;
+    font-style: bold;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #8783D1;
+}
