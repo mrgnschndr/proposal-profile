@@ -6,8 +6,8 @@ Chicken
 ![Wireframe of a pet profile](/images/paws-and-whiskers-rescue-wireframe.png)
 
 ![Paws and Whiskers Rescue Brand Color Palette](/images/paws-and-whiskers-rescue-colors.png)
-Blue: #A9DEF9 (primary)
-Red: #D7816A (secondary)
-Yellow: #F0CF65 (tertiary)
-White: #F7F3F7
-Black: #000505
+Red: #DD4055 (primary)
+Green: #1FAD9D (secondary)
+Purple: #8783D1 (tertiary)
+White: #ECEBF3
+Black: #101119
