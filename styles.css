@@ -6,7 +6,7 @@ Black: #101119 */
 
 
 header {
-    background-color: #DD4055;
+    background-color: #1FAD9D;
     color: #101119;
 }
 
@@ -17,11 +17,16 @@ body {
 }
 
 button {
-    background-color: #1FAD9D;
+    background-color: #DD4055;
     font-style: bold;
     font-size: 24px;
 }
 
 footer {
     background-color: #8783D1;
+}
+
+#copyright {
+    text-align: left;
+    font-style: italic;
 }
