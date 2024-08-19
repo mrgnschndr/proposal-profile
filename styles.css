@@ -9,9 +9,8 @@ header {
     background-color: #1FAD9D;
     color: #101119;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: #1FAD9D;
-    padding: 0px;
 }
 
 body {
@@ -35,18 +34,30 @@ footer {
     background-color: #8783D1;
     border-style: solid;
     border-radius: 20px;
-    border-color: #8783D1;
-}
-
-#copyright {
-    text-align: left;
-    font-style: italic;
+    border: none;
 }
 
 #logo {
     display: inline-block;
     width: 5%;
     height: auto;
+    position: absolute;
+    left: 30px;
+}
+
+#login {
+    display: inline-block;
+    width: 10%;
+    height: 8%;
+    background-color: #8783D1;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #101119;
+    font-weight: 400;
+    border-width: 1.5px;
 }
 
 #header-nav {
@@ -54,30 +65,56 @@ footer {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .nav-items {
-    border-right: 2px solid white;
+    border-left: none;
     text-decoration: none;
     text-align: center;
+    color: #101119;
+    padding: 20px 20px;
 }
 
 #adopt {
-    background-color: #ECEBF3;
-}
-
-#login {
-    display: inline-block;
-    width: 5%;
-    height: auto;
-    padding: 0px 0px 0px 40px;
-    background-color: #8783D1;
+    background-color: #B9F3EC;
 }
 
 #other-pets > img {
     border-radius: 50%;
 }
 
+#footer-nav {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+}
+
+#footer-nav-list {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: right;
+}
+
+#copyright {
+    text-align: left;
+    font-style: italic;
+    font-size: 11px;
+    margin: 0px 0px 10px 20px;
+}
+
+#address {
+    display: inline-block;
+    margin: 10px 0px 20px 0px;
+}
+
+#address-list {
+    list-style-type: none;
+    text-align: left;
+}
+
+#donate {
+    display: inline-block;
+}
 /*
 https://www.w3schools.com/css/css3_images.asp#:~:text=Thumbnail-,Images,-Use%20the%20border*/
