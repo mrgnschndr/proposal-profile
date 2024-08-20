@@ -137,7 +137,7 @@ footer {
 }
 
 h3 {
-    padding: 40px;
+    padding: 20px;
     width: 30%;
     height: auto;
     background-color: #1FAD9D;
@@ -152,6 +152,9 @@ h3 {
     margin: 0px 220px 0px 80px;
 }
 
+section > p {
+    margin: 0px 300px;
+}
 
 /*
 https://www.w3schools.com/css/css3_images.asp#:~:text=Thumbnail-,Images,-Use%20the%20border*/
