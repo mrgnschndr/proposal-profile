@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws And Whiskers Rescue Pet Profile</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/4eb2c8a7e7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <div id="logo-div">
-            <img id="logo" src="./images/placeholder.png" alt="Paws and Whiskers Rescue logo">
-        </div>
-        <div id="logo-blank"></div>
-        <nav id="header-nav">
+        <img src="./images/placeholder.png" alt="Paws and Whiskers Rescue logo">
+        <nav>
             <ul>
                 <a href="#" class="nav-items">Home</a>
                 <a href="#" class="nav-items" id="adopt">Adopt</a>
@@ -21,9 +20,7 @@
                 <a href="#" class="nav-items">My Applications</a>
             </ul>
         </nav>
-        <div id="login-div">
-            <button type="button" id="login">Login</button>
-        </div>
+        <button type="button" id="login">Login</button>
     </header>
     <main>
         <h1>Pet's Name</h1>
@@ -42,8 +39,8 @@
             </div>
         </div>
         <h3>Breed, Weight, Age, etc.</h3>
-        <button type="button">Click to Adopt!</button>
-        <section>
+        <button type="button" id="adopt-now">Adopt Now!</button>
+        <section id="pet-details">
             <p>This is where the pet's backstory, personality, fun traits and stories, and quirks will be listed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis luctus feugiat. Suspendisse id felis at ligula consectetur congue. Nulla porta nisi ac metus dapibus condimentum. Nullam diam felis, dictum et pulvinar quis, placerat sodales lectus. Cras nisl dui, feugiat eget dignissim vitae, elementum eu erat. Duis nec orci massa. Donec vitae orci vitae odio rutrum commodo.</p>
         </section>
     </main>
@@ -65,7 +62,7 @@
                 <li>Company Email</li>
             </ul>
         </address>
-        <button type="button" id="donate">Please Donate!</button>
+        <button type="button" id="donate">Donate!</button>
         <nav id="footer-nav">
             <ul id="footer-nav-items">
                 <li><a href="#" class="footer-links">Home</a></li>
@@ -76,7 +73,7 @@
             </ul>
         </nav>
         <div id="copyright">
-            <p>&copy; 2024 Paws and Whiskers Rescue</p>
+            <p id=">&copy; 2024 Paws and Whiskers Rescue</p>
         </div>
     </footer>
 </body>
