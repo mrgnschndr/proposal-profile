@@ -7,7 +7,6 @@ Black: #101119 */
 /*Header section*/
 header {
     background-color: #1FAD9D;
-    color: #101119;
     border-radius: 10px;
     margin: 0px 5px;
 }
@@ -22,8 +21,9 @@ header > nav {
 
 .nav-items {
     text-decoration: none;
+    color: #FFFAFA;
+    font-weight: 600;
     text-align: center;
-    color: #101119;
     padding: 20px 20px;
     border-radius: 10px;
 }
@@ -38,12 +38,18 @@ header > button {
     display: inline-block;
     width: 120px;
     height: 50px;    
-    background-color: #8783D1;
+    background-color: #0F524F;
     border: solid;
     border-radius: 10px;
-    border-color: #101119;
-    font-weight: bold;
+    border-color: #0F524F;
+    font-weight: 600;
     border-width: 1.5px;
+    color: #B9F3EC;
+}
+
+#adopt {
+    background-color: #B9F3EC;
+    color: #0F524F;
 }
 
 /*Body/Main section*/
@@ -108,10 +114,6 @@ button {
     height: 40px;
     margin: 20px;
     color: #fff;
-}
-
-#adopt {
-    background-color: #B9F3EC;
 }
 
 #other-pets {
