@@ -6,22 +6,22 @@ Black: #101119 */
 
 /*Header section*/
 header {
-    background-color: #1FAD9D;
+    background-color: #FFFAFA;
     border-radius: 10px;
-    margin: 0px 5px;
+    margin: 0 5px 50px 0;
 }
 
 header > nav {
     display: inline-block;
     list-style-type: none;
-    margin-right: 30px;
     padding: 0;
     font-weight: 400;
+    margin: 15px 0 0 0;
 }
 
 .nav-items {
     text-decoration: none;
-    color: #FFFAFA;
+    color: #157E72;
     font-weight: 600;
     text-align: center;
     padding: 20px 20px;
@@ -29,9 +29,11 @@ header > nav {
 }
 
 header > img {
-    width: 20px;
+    width: 50px;
     height: auto;
     display:inline-block;
+    float: left;
+    margin: 20px;
 }
 
 header > button {
@@ -45,6 +47,12 @@ header > button {
     font-weight: 600;
     border-width: 1.5px;
     color: #B9F3EC;
+    float: right;
+}
+
+header > button:hover {
+    background-color: #B9F3EC;
+    color: #0F524F;
 }
 
 #adopt {
@@ -106,14 +114,19 @@ h3 {
 
 button {
     display: inline-block;
-    background-color: #DD4055;
+    background-color: #6B66C7;
     font-weight: 600;
     font-size: 16px;
     border-radius: 10px;
-    border-color: #DD4055;
+    border-color: #6B66C7;
     height: 40px;
     margin: 20px;
-    color: #fff;
+    color: #FFFAFA;
+}
+
+button:hover {
+    background-color: #FFFAFA;
+    color: #6B66C7;
 }
 
 #other-pets {
@@ -130,10 +143,10 @@ button {
 
 /*Footer section*/
 footer {
-    background-color: #8783D1;
+    background-color: #B9F3EC;
     border-radius: 20px;
     border: none;
-    color: #101119;
+    color: #0F524F;
 }
 
 #footer-nav {
@@ -144,12 +157,14 @@ footer {
 
 #footer-nav-items {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 #footer-nav-items > li {
     text-align: right;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
+    color: #0F524F;
 }
 
 .footer-links {
@@ -175,12 +190,13 @@ footer {
 
 #address-list {
     padding: 0px;
+    margin: 10px 0;
 }
 
 #address-list > li {
     list-style-type: none;
     text-align: left;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
