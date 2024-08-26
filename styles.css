@@ -104,7 +104,8 @@ h3 {
     padding: 20px;
     width: fit-content;
     height: auto;
-    background-color: #1FAD9D;
+    color: #FFFAFA;
+    background-color: #0F524F;
     border-radius: 10px;
     margin: auto;
 }
