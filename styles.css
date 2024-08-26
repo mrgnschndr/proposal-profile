@@ -41,7 +41,6 @@ header > button {
     width: 120px;
     height: 50px;    
     background-color: #0F524F;
-    border: solid;
     border-radius: 10px;
     border-color: #0F524F;
     font-weight: 600;
@@ -69,10 +68,13 @@ body {
     margin: 0;
 }
 
+main > div {
+    margin: 0 -600px;
+}
+
 #main-pics {
     display: inline-block;
-    /* width: 40%; */
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-size: 0;
 }
@@ -129,11 +131,20 @@ button:hover {
     color: #6B66C7;
 }
 
-#other-pets {
+#browse {
     display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 25%;
+    top: 140%;
 }
 
-#other-pets img {
+#other-pets {
+    margin-left: 20%;
+    margin-bottom: 20px;
+}
+
+section img {
     border-radius: 50%;
     border: 1px solid #ddd;
     width: 10%;
