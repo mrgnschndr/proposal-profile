@@ -66,7 +66,7 @@ body {
 #vertical-pics {
     display: inline-block;
     width: 5%;
-    margin: 0 0 40px 0;
+    margin: 0 0 30px 0;
     padding: 0;
     font-size: 0;
 }
@@ -99,22 +99,31 @@ h3 {
 }
 
 button {
+    display: inline-block;
     background-color: #DD4055;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
-    border: none;
     border-radius: 10px;
     border-color: #DD4055;
     height: 40px;
     margin: 20px;
+    color: #fff;
 }
 
 #adopt {
     background-color: #B9F3EC;
 }
 
-#other-pets > img {
+#other-pets {
+    display: inline-block;
+}
+
+#other-pets img {
     border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 10%;
+    margin: 20px 10px;
+    padding: 5px;
 }
 
 /*Footer section*/
@@ -196,14 +205,14 @@ footer {
 #donate::before {
     display: inline-block;
     font-family: "Font Awesome 6 Free";
-    content: '\f4c0';
+    content: '\f4b9';
     margin: 0 10px;
 }
 
 #donate::after {
     display: inline-block;
     font-family: "Font Awesome 6 Free";
-    content: '\f4c0';
+    content: '\f4b9';
     margin: 0 10px;
 }
 
